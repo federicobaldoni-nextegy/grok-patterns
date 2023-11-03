@@ -1,0 +1,17 @@
+MSG_ID msg_id=%{QS:msg_id}
+MSG msg=%{QS:msg}
+PROXY_ACT proxy_act=%{QS:msg}
+TLS_PROFILE tls_profile=%{QS:tls_profile}
+TLS_VERSION tls_version=%{QS:tls_version}
+SNI sni=%{QS:sni}
+CN cn=%{QS:cn}
+CERT_ISSUER cert_issuer=%{QS:cert_issuer}
+CERT_SUBJECT cert_subject=%{QS:cert_subject}
+ACTION action=%{QS:action}
+APP_ID app_id=%{QS:app_id}
+APP_CAT_ID app_cat_id=%{QS:app_cat_id}
+SIG_VERS sig_vers=%{QS:sig_vers}
+SENT_BYTES sent_bytes=\"%{INT:sent_bytes}\"
+RCVD_BYTES rcvd_bytes=\"%{INT:rcvd_bytes}\"
+GEO_DST geo_dst=%{QS:geo_dst}
+SRC_USER src_user=%{QS:src_user}
